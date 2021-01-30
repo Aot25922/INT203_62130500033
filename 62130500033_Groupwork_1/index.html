@@ -22,91 +22,141 @@
 
 <body class="bg-gray-100">
   <!--Top Navbar-->
-  <div class=" space-x-4 flex items-stretch px-24 bg-white h-16 pt-1">
-    <a class="inline-block box-content h-auto  md:box-content pt-0 px-4 flex-none" href="">
+  <div class=" space-x-4 flex items-stretch px-24 bg-white h-16 pt-1 ">
+    <a class="inline-block box-content h-auto  md:box-content pt-0 px-4 flex-none " href="">
       <img src="./images/logo.svg" alt="logo" class="inline">
-      <span class=" font-sans text-2xl font-normal text-gray-300 pl-2 pt-2">DeepL</span>
+      <span class=" font-sans text-xl font-medium text-gray-300  pl-2 pr-8  border-r-2 "
+        style="color:#0f2b46">DeepL</span>
     </a>
-    <button class="flex-shrink-0 inline-block font-sans text-xl font-normal text-gray-300 px-4 ">Translator</button>
-    <button class="flex-shrink-0 inline-block font-sans text-xl font-normal text-gray-300 px-4">Deepl Pro</button>
-    <button class="flex-shrink-0 inline-block font-sans text-xl font-normal text-gray-300 px-4">Plans and
+    <button
+      class="text-indigo-900 hover:text-blue-400  hover:border-indigo-900 flex-shrink-0 inline-block font-sans text-xl font-extralight  px-4 border-b-2 border-white">Translator</button>
+    <button
+      class="text-indigo-900 hover:text-blue-400  hover:border-indigo-900 flex-shrink-0 inline-block font-sans text-xl font-extralight  px-4 border-b-2 border-white">Deepl
+      Pro</button>
+    <button
+      class="text-indigo-900 hover:text-blue-400  hover:border-indigo-900 flex-shrink-0 inline-block font-sans text-xl font-extralight  px-4 border-b-2 border-white">Plans
+      and
       pricing</button>
-    <button class="flex-shrink-0 inline-block font-sans text-xl font-normal text-gray-300 px-4">Apps</button>
-    <div class="flex justify-end items-stretch flex-no-shrink flex-grow space-x-4 inline-block ">
-      <button class=" flex-shrink-0  font-sans text-xl font-normal text-gray-300  h-7 m-4">Download for window</button>
-      <a class="flex inline-block box-content h-auto  md:box-content pt-1.5 " href="">
-        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="40" viewBox="0 0 24 24">
+    <button
+      class="text-indigo-900 hover:text-blue-400  hover:border-indigo-900 flex-shrink-0 inline-block font-sans text-xl font-extralight  px-4 border-b-2 border-white">Apps</button>
+    <div class="flex  justify-end items-stretch flex-no-shrink flex-grow space-x-4 inline-block py-3">
+      <button
+        class=" hover:bg-indigo-900 bg-blue-700 rounded flex-shrink-0  font-sans text-xl font-extralightl text-white  h-9 px-4  " ">Download for window
+        <span class=" flex-shrink-0 font-sans text-xs font-extralightl text-white">it's free!</span>
+      </button>
+      <a class="group flex inline-block box-content h-auto  md:box-content" href="">
+        <svg class="fill-current group-hover:text-blue-400 text-indigo-900 " xmlns="http://www.w3.org/2000/svg"
+          width="30" height="40" viewBox="0 0 24 24">
           <path
             d="M19 7.001c0 3.865-3.134 7-7 7s-7-3.135-7-7c0-3.867 3.134-7.001 7-7.001s7 3.134 7 7.001zm-1.598 7.18c-1.506 1.137-3.374 1.82-5.402 1.82-2.03 0-3.899-.685-5.407-1.822-4.072 1.793-6.593 7.376-6.593 9.821h24c0-2.423-2.6-8.006-6.598-9.819z" />
         </svg>
-        <span class="inline-block font-sans text-xl font-normal text-gray-300 pl-2 pt-2">Login</span>
+        <span
+          class="group-hover:text-blue-400 text-indigo-900 inline-block font-sans text-xl font-extralight  pl-2 pt-2 ">Login</span>
       </a>
-      <svg class="mt-2.5" xmlns="http://www.w3.org/2000/svg" width="30" height="40" viewBox="0 0 24 24">
-        <path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z" /></svg>
+      <a href="">
+        <svg class="fill-current hover:text-blue-400 text-indigo-900" xmlns="http://www.w3.org/2000/svg" width="30"
+          height="40" viewBox="0 0 24 24">
+          <path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z" /></svg>
+      </a>
     </div>
   </div>
 
   <!--Translate Zone-->
-  <div class="px-20 col-span-2 h-20">
-    <button class="inline-block font-sans text-xl font-normal text-gray-300 px-4  my-10">
+  <div class="px-20 col-span-2 h-20 py-5">
+    <button
+      class="text-indigo-900 bg-blue-200 inline-block font-sans text-lg font-normal text-gray-300 px-4 py-0.5  rounded-l border-indigo-900 border">
       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="15" viewBox="0 0 24 24" class="inline">
         <path
           d="M18.363 8.464l1.433 1.431-12.67 12.669-7.125 1.436 1.439-7.127 12.665-12.668 1.431 1.431-12.255 12.224-.726 3.584 3.584-.723 12.224-12.257zm-.056-8.464l-2.815 2.817 5.691 5.692 2.817-2.821-5.693-5.688zm-12.318 18.718l11.313-11.316-.705-.707-11.313 11.314.705.709z" />
       </svg>
       Translate Text</button>
-    <button class="inline-block font-sans text-xl font-normal text-gray-300 px-4">
-      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="15" viewBox="0 0 24 24" class="inline">
+    <button
+      class="group  text-blue-400 -ml-1.5 inline-block font-sans text-lg font-normal text-gray-300 px-4 py-0.5 rounded-r border-indigo-900 border">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="15" viewBox="0 0 24 24"
+        class="group-hover:text-indigo-900 inline fill-current text-blue-400 ">
         <path
           d="M11.362 2c4.156 0 2.638 6 2.638 6s6-1.65 6 2.457v11.543h-16v-20h7.362zm.827-2h-10.189v24h20v-14.386c0-2.391-6.648-9.614-9.811-9.614zm4.811 13h-3v-1h3v1zm0 2h-3v1h3v-1zm0 3h-10v1h10v-1zm-5-6h-5v4h5v-4z" />
       </svg>
-      Translate documents</button>
+      <span class="group-hover:text-indigo-900">Translate documents</span></button>
   </div>
-  <div>
+  <div >
     <div class="grid grid-cols-2 px-20 sticky top-0">
-      <p class="font-sans text-xl font-normal">Translate from any langauge</p>
+      <a class="group font-sans text-xl font-extralight" href="">
+        Translate from 
+        <span class="font-normal group-hover:text-blue-400"> any langauge </span>
+        <svg class="inline group-hover:text-blue-400 fill-current" width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd"
+          clip-rule="evenodd">
+          <path
+            d="M14 19h-14v-1h14v1zm9.247-8.609l-3.247 4.049-3.263-4.062-.737.622 4 5 4-5-.753-.609zm-9.247 2.609h-14v-1h14v1zm0-6h-14v-1h14v1z" />
+        </svg>
+      </a>
+
       <div class="grid grid-cols-2">
-        <p class="font-sans text-xl font-normal">Translate into English(US)</p>
-        <button class="justify-self-end font-sans text-xl font-normal">Glossy</button>
+        <a class="group font-sans text-xl font-extralight" href="">Translate into 
+          <span class="font-normal group-hover:text-blue-400">English(US)</span>
+          <svg class="group-hover:text-blue-400 inline fill-current" width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd"
+            clip-rule="evenodd">
+            <path
+              d="M14 19h-14v-1h14v1zm9.247-8.609l-3.247 4.049-3.263-4.062-.737.622 4 5 4-5-.753-.609zm-9.247 2.609h-14v-1h14v1zm0-6h-14v-1h14v1z" />
+          </svg>
+        </a>
+        <button class="justify-self-end font-sans text-lg font-normal border-grey px-2 border hover:text-blue-400">Glossary</button>
       </div>
     </div>
     <div class="grid grid-rows-2 grid-cols-2 gap-4 mt-2">
       <div class="ml-20">
         <form>
           <input type="text" class="w-full h-96">
-          <svg class="relative bottom-8 left-4 " xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+          <a href="">
+          <svg class="relative bottom-8 left-4 inline-block fill-current hover:text-blue-400 text-indigo-900" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
             viewBox="0 0 24 24">
             <path
               d="M5 17h-5v-10h5v10zm2-10v10l9 5v-20l-9 5zm17 4h-5v2h5v-2zm-1.584-6.232l-4.332 2.5 1 1.732 4.332-2.5-1-1.732zm1 12.732l-4.332-2.5-1 1.732 4.332 2.5 1-1.732z" />
           </svg>
+          </a>
         </form>
       </div>
       <div class="mr-20 ">
         <form>
           <input type="text" class="w-full h-96">
           <div class="relative bottom-8 left-4 ">
-            <svg class="inline-block" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+            <a href="">
+            <svg class="inline-block inline-block fill-current hover:text-blue-400 text-indigo-900" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
               <path
                 d="M5 17h-5v-10h5v10zm2-10v10l9 5v-20l-9 5zm17 4h-5v2h5v-2zm-1.584-6.232l-4.332 2.5 1 1.732 4.332-2.5-1-1.732zm1 12.732l-4.332-2.5-1 1.732 4.332 2.5 1-1.732z" />
             </svg>
-            <svg class="inline-block" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+            </a>
+            <a href="">
+            <svg class="inline-block inline-block fill-current hover:text-blue-400 text-indigo-900" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
               <path
                 d="M15.43 8.814c.808-3.283 1.252-8.814-2.197-8.814-1.861 0-2.35 1.668-2.833 3.329-1.971 6.788-5.314 7.342-8.4 7.743v9.928c3.503 0 5.584.729 8.169 1.842 1.257.541 3.053 1.158 5.336 1.158 2.538 0 4.295-.997 5.009-3.686.5-1.877 1.486-7.25 1.486-8.25 0-1.649-1.168-2.446-2.594-2.507-1.21-.051-2.87-.277-3.976-.743zm3.718 4.321l-1.394.167s-.609 1.109.141 1.115c0 0 .201.01 1.069-.027 1.082-.046 1.051 1.469.004 1.563l-1.761.099c-.734.094-.656 1.203.141 1.172 0 0 .686-.017 1.143-.041 1.068-.056 1.016 1.429.04 1.551-.424.053-1.745.115-1.745.115-.811.072-.706 1.235.109 1.141l.771-.031c.822-.074 1.003.825-.292 1.661-1.567.881-4.685.131-6.416-.614-2.238-.965-4.437-1.934-6.958-2.006v-6c3.263-.749 6.329-2.254 8.321-9.113.898-3.092 1.679-1.931 1.679.574 0 2.071-.49 3.786-.921 5.533 1.061.543 3.371 1.402 6.12 1.556 1.055.059 1.025 1.455-.051 1.585z" />
             </svg>
-            <svg class="inline-block mt-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+            </a>
+            <a href="">
+            <svg class="inline-block mt-2 inline-block fill-current hover:text-blue-400 text-indigo-900" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
               viewBox="0 0 24 24">
               <path
                 d="M19.406 14.442c1.426-.06 2.594-.858 2.594-2.506 0-1-.986-6.373-1.486-8.25-.714-2.689-2.471-3.686-5.009-3.686-2.283 0-4.079.617-5.336 1.158-2.585 1.113-4.665 1.842-8.169 1.842v9.928c3.086.401 6.43.956 8.4 7.744.483 1.66.972 3.328 2.833 3.328 3.448 0 3.005-5.531 2.196-8.814 1.107-.466 2.767-.692 3.977-.744zm-.207-1.992c-2.749.154-5.06 1.013-6.12 1.556.431 1.747.921 3.462.921 5.533 0 2.505-.781 3.666-1.679.574-1.993-6.859-5.057-8.364-8.321-9.113v-6c2.521-.072 4.72-1.041 6.959-2.005 1.731-.745 4.849-1.495 6.416-.614 1.295.836 1.114 1.734.292 1.661l-.771-.032c-.815-.094-.92 1.068-.109 1.141 0 0 1.321.062 1.745.115.976.123 1.028 1.607-.04 1.551-.457-.024-1.143-.041-1.143-.041-.797-.031-.875 1.078-.141 1.172 0 0 .714.005 1.761.099s1.078 1.609-.004 1.563c-.868-.037-1.069-.027-1.069-.027-.75.005-.874 1.028-.141 1.115l1.394.167c1.075.13 1.105 1.526.05 1.585z" />
             </svg>
+            </a>
             <div class="float-right mr-10">
-              <svg class="inline-block" width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd"
-                clip-rule="evenodd">
-                <path d="M17 7h6v16h-16v-6h-6v-16h16v6zm5 1h-14v14h14v-14zm-6-1v-5h-14v14h5v-9h9z" /></svg>
-              <svg class="inline-block" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                <path
-                  d="M5 9c1.654 0 3 1.346 3 3s-1.346 3-3 3-3-1.346-3-3 1.346-3 3-3zm0-2c-2.762 0-5 2.239-5 5s2.238 5 5 5 5-2.239 5-5-2.238-5-5-5zm15 9c-1.165 0-2.204.506-2.935 1.301l-5.488-2.927c-.23.636-.549 1.229-.944 1.764l5.488 2.927c-.072.301-.121.611-.121.935 0 2.209 1.791 4 4 4s4-1.791 4-4-1.791-4-4-4zm0 6c-1.103 0-2-.897-2-2s.897-2 2-2 2 .897 2 2-.897 2-2 2zm0-22c-2.209 0-4 1.791-4 4 0 .324.049.634.121.935l-5.488 2.927c.395.536.713 1.128.944 1.764l5.488-2.927c.731.795 1.77 1.301 2.935 1.301 2.209 0 4-1.791 4-4s-1.791-4-4-4zm0 6c-1.103 0-2-.897-2-2s.897-2 2-2 2 .897 2 2-.897 2-2 2z" />
-              </svg>
-              <svg class="inline-block" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                <path d="M16 11h5l-9 10-9-10h5v-11h8v11zm1 11h-10v2h10v-2z" /></svg>
+              <a href="">
+                <svg class="inline-block fill-current hover:text-blue-400 text-indigo-900" width="24" height="24"
+                  xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+                  <path d="M17 7h6v16h-16v-6h-6v-16h16v6zm5 1h-14v14h14v-14zm-6-1v-5h-14v14h5v-9h9z" /></svg>
+              </a>
+              <a href="">
+                <svg class="inline-block fill-current hover:text-blue-400 text-indigo-900"
+                  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                  <path
+                    d="M5 9c1.654 0 3 1.346 3 3s-1.346 3-3 3-3-1.346-3-3 1.346-3 3-3zm0-2c-2.762 0-5 2.239-5 5s2.238 5 5 5 5-2.239 5-5-2.238-5-5-5zm15 9c-1.165 0-2.204.506-2.935 1.301l-5.488-2.927c-.23.636-.549 1.229-.944 1.764l5.488 2.927c-.072.301-.121.611-.121.935 0 2.209 1.791 4 4 4s4-1.791 4-4-1.791-4-4-4zm0 6c-1.103 0-2-.897-2-2s.897-2 2-2 2 .897 2 2-.897 2-2 2zm0-22c-2.209 0-4 1.791-4 4 0 .324.049.634.121.935l-5.488 2.927c.395.536.713 1.128.944 1.764l5.488-2.927c.731.795 1.77 1.301 2.935 1.301 2.209 0 4-1.791 4-4s-1.791-4-4-4zm0 6c-1.103 0-2-.897-2-2s.897-2 2-2 2 .897 2 2-.897 2-2 2z" />
+                </svg>
+              </a>
+              <a href="">
+                <svg class="inline-block fill-current hover:text-blue-400 text-indigo-900"
+                  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                  <path d="M16 11h5l-9 10-9-10h5v-11h8v11zm1 11h-10v2h10v-2z" /></svg>
+              </a>
             </div>
           </div>
         </form>
@@ -115,19 +165,19 @@
       <div class="ml-60 h-80 ">
         <p class="font-sans text-4xl font-light">Translate everywhere with </p>
         <p class="font-sans text-4xl font-normal">DeepL for Windows</p>
-        <button class="mt-5 px-4 py-2">Download for free</button>
+        <button class="mt-5 px-5 py-2 bg-red-500 rounded text-white">Download for free</button>
       </div>
       <div class="mr-60 h-80">
         <ul class="mt-4">
-          <li class="font-sans text-lg font-semibold"><svg class="inline mr-1" xmlns="http://www.w3.org/2000/svg"
+          <li class="font-sans text-lg font-semibold"><svg class="inline mr-1 fill-current text-green-700" xmlns="http://www.w3.org/2000/svg"
               width="20" height="20" viewBox="0 0 24 24">
               <path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z" /></svg>Translate text in
             any application by simply pressing Ctrl+C twice</li>
-          <li class="font-sans text-lg font-semibold mt-4"><svg class="inline mr-1" xmlns="http://www.w3.org/2000/svg"
+          <li class="font-sans text-lg font-semibold mt-4"><svg class="inline mr-1 fill-current text-green-700" xmlns="http://www.w3.org/2000/svg"
               width="20" height="20" viewBox="0 0 24 24">
               <path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z" /></svg>Drag and drop files
             to translate documents</li>
-          <li class="font-sans text-lg font-semibold mt-4"><svg class="inline mr-1" xmlns="http://www.w3.org/2000/svg"
+          <li class="font-sans text-lg font-semibold mt-4"><svg class="inline mr-1 fill-current text-green-700" xmlns="http://www.w3.org/2000/svg"
               width="20" height="20" viewBox="0 0 24 24">
               <path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z" /></svg> More than 1 million
             people work faster with our app</li>
@@ -136,34 +186,71 @@
     </div>
 
   </div>
-  <div class="-mt-20">
-    <svg class="relative left-72 -top-3" xmlns="http://www.w3.org/2000/svg" width="90" height="90" viewBox="0 0 24 24">
-      <path
-        d="M11 9.275c0 5.141-3.892 10.519-10 11.725l-.984-2.126c2.215-.835 4.163-3.742 4.38-5.746-2.491-.392-4.396-2.547-4.396-5.149 0-3.182 2.584-4.979 5.199-4.979 3.015 0 5.801 2.305 5.801 6.275zm13 0c0 5.141-3.892 10.519-10 11.725l-.984-2.126c2.215-.835 4.163-3.742 4.38-5.746-2.491-.392-4.396-2.547-4.396-5.149 0-3.182 2.584-4.979 5.199-4.979 3.015 0 5.801 2.305 5.801 6.275z" />
+  <div class="-mt-20 flex flex-col">
+    <div class="mx-auto -mt-16 h-96 bg-white w-3/5 block flex-no-shrink">
+      <svg class="relative -left-5 -top-7 fill-current text-gray-700" xmlns="http://www.w3.org/2000/svg" width="90" height="90"
+        viewBox="0 0 24 24">
+        <path
+          d="M11 9.275c0 5.141-3.892 10.519-10 11.725l-.984-2.126c2.215-.835 4.163-3.742 4.38-5.746-2.491-.392-4.396-2.547-4.396-5.149 0-3.182 2.584-4.979 5.199-4.979 3.015 0 5.801 2.305 5.801 6.275zm13 0c0 5.141-3.892 10.519-10 11.725l-.984-2.126c2.215-.835 4.163-3.742 4.38-5.746-2.491-.392-4.396-2.547-4.396-5.149 0-3.182 2.584-4.979 5.199-4.979 3.015 0 5.801 2.305 5.801 6.275z" />
       </svg>
-    <div class="mx-80 -mt-16 h-96 bg-white">
       <p class=" relative p-20 font-sans text-2xl font-semibold flex">Some text here</p>
     </div>
-    <div class=" flex  justify-between top-2 py-10" style="left:28rem;margin-left: 40rem;margin-right: 40rem;">
-      <svg class="" xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12"/></svg>
-      <svg class="" xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12"/></svg>
-      <svg class="" xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12"/></svg>
-      <svg class="" xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12"/></svg>
-      <svg class="" xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12"/></svg>
-      <svg class="" xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12"/></svg>
-      <svg class="" xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12"/></svg>
-      <svg class="" xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12"/></svg>
-      <svg class="" xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12"/></svg>
-      <svg class="" xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12"/></svg>
+    <div class=" flex block justify-between top-20 py-10 w-72 mx-auto flex-no-shrink block">
+      <svg  xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="12" /></svg>
+      <svg class="fill-current text-gray-400" xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="12" /></svg>
+      <svg class="fill-current text-gray-400" xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="12" /></svg>
+      <svg class="fill-current text-gray-400" xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="12" /></svg>
+      <svg class="fill-current text-gray-400" xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="12" /></svg>
+      <svg class="fill-current text-gray-400" xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="12" /></svg>
+      <svg class="fill-current text-gray-400" xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="12" /></svg>
+      <svg class="fill-current text-gray-400" xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="12" /></svg>
+      <svg class="fill-current text-gray-400" xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="12" /></svg>
+      <svg class="fill-current text-gray-400" xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="12" /></svg>
     </div>
   </div>
   <!--Bottom-->
-  <div class="space-x-4 flex items-stretch mx-24 bg-white h-16 my-10">
-    <a class="flex-shrink-0 inline-block font-sans text-xs font-base text-gray-300 px-4 py-4">English</a>
-    <a class="flex-shrink-0 inline-block font-sans text-xs font-normal text-gray-300 px-4 py-4">Press</a>
-    <a class="flex-shrink-0 inline-block font-sans text-xs font-normal text-gray-300 px-4 py-4">Privacy</a>
-    <a class="flex-shrink-0 inline-block font-sans text-xs font-normal text-gray-300 px-4 py-4">Terms & Condition</a>
-    <a class="flex-shrink-0 inline-block font-sans text-xs font-normal text-gray-300 px-4 py-4">Publisher</a>
+  <div class="space-x-4 flex items-stretch mx-auto  h-10 my-10 w-4/5  border-t-2">
+    <a href="" class="group flex flex-shrink-0 inline-block font-sans text-xs font-base text-gray-600 px-4 py-4 w-44 border-r-2">English
+      <svg class="inline fill-current text-gray-400 ml-20 -mt-1 group-hover:text-gray-900" width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd"
+          clip-rule="evenodd">
+          <path
+            d="M14 19h-14v-1h14v1zm9.247-8.609l-3.247 4.049-3.263-4.062-.737.622 4 5 4-5-.753-.609zm-9.247 2.609h-14v-1h14v1zm0-6h-14v-1h14v1z" />
+        </svg>
+    </a>
+    <a class="flex-shrink-0 inline-block font-sans text-xs font-normal text-gray-600 px-4 py-4 hover:underline" href="">Press</a>
+    <a class="flex-shrink-0 inline-block font-sans text-xs font-normal text-gray-600 px-4 py-4 hover:underline" href="">Privacy</a>
+    <a class="flex-shrink-0 inline-block font-sans text-xs font-normal text-gray-600 px-4 py-4 hover:underline" href="">Terms & Condition</a>
+    <a class="flex-shrink-0 inline-block font-sans text-xs font-normal text-gray-600 px-4 py-4 hover:underline" href="">Publisher</a>
+    <div class="flex justify-end flex-grow space-x-4 inline-block px-4 py-4">
+      <a href="">
+      <svg class="fill-current text-gray-400 hover:text-blue-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+        <path
+          d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.066 9.645c.183 4.04-2.83 8.544-8.164 8.544-1.622 0-3.131-.476-4.402-1.291 1.524.18 3.045-.244 4.252-1.189-1.256-.023-2.317-.854-2.684-1.995.451.086.895.061 1.298-.049-1.381-.278-2.335-1.522-2.304-2.853.388.215.83.344 1.301.359-1.279-.855-1.641-2.544-.889-3.835 1.416 1.738 3.533 2.881 5.92 3.001-.419-1.796.944-3.527 2.799-3.527.825 0 1.572.349 2.096.907.654-.128 1.27-.368 1.824-.697-.215.671-.67 1.233-1.263 1.589.581-.07 1.135-.224 1.649-.453-.384.578-.87 1.084-1.433 1.489z" />
+      </svg>
+      </a>
+      <a href="">
+      <svg class="fill-current text-gray-400 hover:text-blue-800" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+        <path
+          d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm3 8h-1.35c-.538 0-.65.221-.65.778v1.222h2l-.209 2h-1.791v7h-3v-7h-2v-2h2v-2.308c0-1.769.931-2.692 3.029-2.692h1.971v3z" />
+      </svg>
+      </a>
+      <a href="">
+      <svg class="fill-current text-gray-400 hover:text-blue-700" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+        <path
+          d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 16h-2v-6h2v6zm-1-6.891c-.607 0-1.1-.496-1.1-1.109 0-.612.492-1.109 1.1-1.109s1.1.497 1.1 1.109c0 .613-.493 1.109-1.1 1.109zm8 6.891h-1.998v-2.861c0-1.881-2.002-1.722-2.002 0v2.861h-2v-6h2v1.093c.872-1.616 4-1.736 4 1.548v3.359z" />
+      </svg>
+      </a>
+    </div>
   </div>
 
   <!-- my main.js -->
