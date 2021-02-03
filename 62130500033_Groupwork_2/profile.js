@@ -11,7 +11,8 @@
                 followers_no:"940",
                 ratings:"Ratings",
                 ratings_no:"8.9",
-                chats:"Chat"
+                chats:"Chat",
+                width:"150"
             }
         }
 
